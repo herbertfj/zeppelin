@@ -69,7 +69,7 @@
 
 .ace-tm .ace_marker-layer .ace_selection {
     background: rgba(98, 157, 233, 0.2) !important;
-    color: black;
+    color: #d8d8d8 !important;
 }
 
 .ace_active-line {
@@ -113,7 +113,7 @@
 }
 
 .paragraph .control {
-  background-color: rgba(255,255,255,0.85);
+  /*background-color: rgba(255,255,255,0.85);*/
   /*display: none;*/
   float: right;
   color: #999;
@@ -171,7 +171,7 @@
 
 .paragraph .editor {
   width: 100%;
-  border-left: 4px solid #DDDDDD;
+  border-left: 4px solid #6C737D;
   background: rgba(255, 255, 255, 0.0);
   margin: 7px 0 2px 0px;
 }
@@ -200,7 +200,7 @@
 
 .ace-tm {
   background-color: #FFFFFF;
-  color: black;
+  color: #d8d8d8 !important;
 }
 .ace_editor {
   position: relative;
@@ -460,13 +460,13 @@
 
 /* note setting panel */
 .setting {
-  background-color: white;
+  /*background-color: white;*/
   padding: 10px 15px 15px 15px;
   margin-left: -10px;
   margin-right: -10px;
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid #E5E5E5;
+  /*border-bottom: 1px solid #E5E5E5;*/
 }
 
 .setting .interpreterSettings {

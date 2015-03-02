@@ -14,7 +14,7 @@
  */
 
 body {
-  background: #ecf0f1;
+  background: #151924;
 }
 
 /**
@@ -27,10 +27,10 @@ body {
   margin-bottom: 20px;
 }
 
-.box, 
+.box,
 .well {
-  background-color: #ffffff;
-  border-color: #e5e5e5;
+  background-color: #262f3f;
+  border-color: #1b222f;
   border-width: 1px 1px 2px;
   border-radius: 3px;
   -webkit-box-shadow: none;
@@ -42,10 +42,10 @@ body {
 }
 
 .noteAction {
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  /* background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); */
   color: #2c3e50;
-  border-bottom: 1px solid #E5E5E5;
+  /* border-bottom: 1px solid #E5E5E5; */
 }
 
 .control span {
