@@ -66,3 +66,18 @@ body {
 .nv-controlsWrap {
   display:block;
 }
+
+.btn-default {
+  color: #d8d8d8 !important;
+  background: none !important;
+  border: none !important;
+}
+
+.nvd3 .nv-axis line {
+  stroke: #969696 !important;
+  opacity: 0.3;
+}
+
+svg text {
+  fill: #d8d8d8 !important;
+}
