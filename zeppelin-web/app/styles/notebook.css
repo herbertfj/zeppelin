@@ -399,6 +399,7 @@
 
 .table>tbody>tr>td:hover, .table>tbody>tr>th:hover {
   color: black !important;
+  background-color: #6d7f81 !important;
 }
 
 .table>thead>tr>td, .table>thead>tr>th {
@@ -428,6 +429,10 @@
   padding: 0px;
   margin: 0px;
   cursor: pointer;
+}
+
+.nvtooltip {
+  color: #000 !important;
 }
 
 .graphContainer {

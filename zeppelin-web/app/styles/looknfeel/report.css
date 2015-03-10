@@ -92,3 +92,12 @@ body {
 .nv-controlsWrap {
   display:none;
 }
+
+.nvd3 .nv-axis line {
+  stroke: #969696 !important;
+  opacity: 0.3;
+}
+
+svg text {
+  fill: #d8d8d8 !important;
+}
