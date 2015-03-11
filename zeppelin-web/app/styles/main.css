@@ -89,7 +89,7 @@ body .navbar {
   font-size: 32px;
 }
 
-a.navbar-brand:hover {
+a.navbar-brand:hover, a.navbar-brand:focus {
   color: #384255 !important;
 }
 

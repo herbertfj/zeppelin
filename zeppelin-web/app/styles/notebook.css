@@ -350,6 +350,23 @@
   margin-left: 2px;
 }
 
+.fa-cog, .icon-question {
+  color: #d8d8d8 !important;
+}
+
+.modal-body .row {
+  color: black !important;
+}
+
+.row .btn-group .dropdown-menu > li > a {
+  color: #d8d8d8 !important;
+}
+
+.row .btn-group .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  color: #1e2531 !important;
+  background-color: #268bd2 !important;
+}
+
 .tableDisplay img {
   display: block;
   max-width: 100%;
@@ -397,17 +414,20 @@
   border-top: 1px solid #12151c !important;
 }
 
-.table>tbody>tr>td:hover, .table>tbody>tr>th:hover {
-  color: black !important;
-  background-color: #6d7f81 !important;
+.table>thead>tr {
+  background-color: #151924 !important;
 }
 
 .table>thead>tr>td, .table>thead>tr>th {
-  color: black !important;
+  color: #d8d8d8 !important;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+  background-color: #268bd2 !important;
 }
 
 .table .table {
-  background-color: #262F3F !important;
+  background-color: #1e2531 !important;
 }
 
 .tableDisplay .option .columns ul li {
@@ -432,7 +452,13 @@
 }
 
 .nvtooltip {
-  color: #000 !important;
+  color: #d8d8d8 !important;
+  background-color: #1E2531 !important;
+}
+
+.nvtooltip h3 {
+  color: #d8d8d8 !important;
+  background-color: #151924 !important;
 }
 
 .graphContainer {
@@ -512,10 +538,6 @@
 
 .setting .modal-footer {
   border: 0px;
-}
-
-.table {
-  background-color:
 }
 
 /* color definition */
